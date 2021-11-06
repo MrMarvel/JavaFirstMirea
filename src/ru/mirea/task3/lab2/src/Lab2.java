@@ -1,6 +1,6 @@
-import ru.mirea.task2.prac1.book.TestBook;
-import ru.mirea.task3.lab2.circle.CircleTest;
-import ru.mirea.task3.lab2.human.HumanTest;
+import bookPackage.BookTest;
+import circle.CircleTest;
+import human.HumanTest;
 
 public class Lab2 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Lab2 {
         //2
         HumanTest.test();
         //3
-        TestBook.test();
+        BookTest.test();
     }
 }
 
